@@ -24,7 +24,7 @@ BANNER =  """
 SWITCHES = [
   # ['-b', '--batch', 'batch mode to convert all .js files in directory']
   # ['-o', '--output [OUTDIR]', 'set the output directory']
-  # ['-r', '--recursive', 'recurse on all subdirectories']
+  ['-r', '--recursive', 'recurse on all subdirectories']
   ['-v', '--version', 'Show js2coffee version']
   ['-V', '--verbose', 'Be verbose']
   ['-X', '--no_comments', 'Do not translate comments']
